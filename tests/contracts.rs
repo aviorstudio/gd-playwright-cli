@@ -9,7 +9,8 @@ use tokio_tungstenite::{accept_async, tungstenite::Message};
 
 fn command(args: &[&str]) -> Command {
     let mut command = Command::new(
-        std::env::var("GDPW_TEST_BINARY").unwrap_or_else(|_| env!("CARGO_BIN_EXE_gdpw").into()),
+        std::env::var("GDPW_TEST_BINARY")
+            .unwrap_or_else(|_| env!("CARGO_BIN_EXE_gd-playwright-cli").into()),
     );
     command
         .args(args)

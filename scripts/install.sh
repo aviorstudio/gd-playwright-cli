@@ -1,8 +1,8 @@
 #!/bin/sh
-# Install a published gdpw release into a user-owned directory.
+# Install a published gd-playwright-cli release into a user-owned directory.
 set -eu
 
-tool=gdpw
+tool=gd-playwright-cli
 repo_url=https://github.com/aviorstudio/gd-playwright-cli
 release=latest
 install_dir=${INSTALL_DIR:-"$HOME/.local/bin"}

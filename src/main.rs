@@ -4,7 +4,7 @@ mod commands;
 mod config;
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
-const HELP: &str = "gdpw: query Godot elements and state through CDP\n\nUsage: gdpw <get|list|status|events|wait|watch|state|script> [arguments] [flags]\n\nConnection: --cdp URL, --port PORT, GDPW_CDP, GDPW_PORT, then local browser discovery.\nMachine results: --json supports finite commands; multi-key get returns one elements/errors document.\nget KEY...: --json --force --script\nlist: --visible --filter PREFIX --json\nevents: --last COUNT --name EVENT --filter key=value --since TIMESTAMP\nwait EVENT: --timeout MILLISECONDS --include-past --since TIMESTAMP --filter key=value\nwatch: --name EVENT --filter key=value --quiet\nscript click KEY: --force --expect-event EVENT --filter key=value --timeout MILLISECONDS --retries COUNT --retry-delay MILLISECONDS\nscript drag KEY: same flags plus --to X,Y or --to-key KEY, --steps COUNT\n\ngdpw reads browser state and prints Playwright action scripts. It does not execute input.\n";
+const HELP: &str = "gd-playwright-cli: query Godot elements and state through CDP\n\nUsage: gd-playwright-cli <get|list|status|events|wait|watch|state|script> [arguments] [flags]\n\nConnection: --cdp URL, --port PORT, GDPW_CDP, GDPW_PORT, then local browser discovery.\nMachine results: --json supports finite commands; multi-key get returns one elements/errors document.\nget KEY...: --json --force --script\nlist: --visible --filter PREFIX --json\nevents: --last COUNT --name EVENT --filter key=value --since TIMESTAMP\nwait EVENT: --timeout MILLISECONDS --include-past --since TIMESTAMP --filter key=value\nwatch: --name EVENT --filter key=value --quiet\nscript click KEY: --force --expect-event EVENT --filter key=value --timeout MILLISECONDS --retries COUNT --retry-delay MILLISECONDS\nscript drag KEY: same flags plus --to X,Y or --to-key KEY, --steps COUNT\n\ngdpw reads browser state and prints Playwright action scripts. It does not execute input.\n";
 
 #[tokio::main]
 async fn main() {
@@ -38,7 +38,7 @@ async fn main() {
                 serde_json::json!({"version":env!("GDPW_VERSION"),"commit":env!("GDPW_COMMIT")})
             );
         } else {
-            println!("gdpw version {}", env!("GDPW_VERSION"));
+            println!("gd-playwright-cli version {}", env!("GDPW_VERSION"));
         }
         return;
     }

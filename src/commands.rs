@@ -139,7 +139,7 @@ async fn get(config: &Config, client: &mut cdp::Client) -> Result<()> {
                 hint
             };
             errors.push(if keys.is_empty() {
-                format!("element {key:?} not found — run `gdpw list` to see available elements")
+                format!("element {key:?} not found — run `gd-playwright-cli list` to see available elements")
             } else {
                 format!("element {key:?} not found — available: {hint}")
             });
