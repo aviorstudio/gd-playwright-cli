@@ -82,7 +82,7 @@
       "destination_repository": "aviorstudio/gd-playwright-cli",
       "destination_path": "src/main.rs",
       "sha256": "ff64814bc1e3501890937d21971c0963c84d1d669b494131b5544d4ada7c1a1a",
-      "destination_sha256": "8dd0501a86afb91697650fa7377206596ea1fc5dcc1358431f8aaa092373051e"
+      "destination_sha256": "ce264c7f3ba02017df538bc532209fec408654a266de4af567fc17543e81fbea"
     },
     {
       "source_repository": "aviorstudio/gd-playwright",
