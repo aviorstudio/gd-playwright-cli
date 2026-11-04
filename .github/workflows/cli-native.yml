@@ -8,6 +8,16 @@ name: Native CLI
       version:
         type: string
         default: dev
+  workflow_dispatch:
+    inputs:
+      release:
+        type: boolean
+        default: false
+        description: Build release archives without publishing
+      version:
+        type: string
+        default: dev
+        description: Version embedded in the executable
 permissions:
   contents: read
 jobs:
