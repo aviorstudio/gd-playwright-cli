@@ -1,6 +1,6 @@
-<!-- Generated from private documentation source. Do not edit directly. Source SHA256: a15a95a16e263af4357e5af41854fbef6c8cc96450a0b48e224102f6f8c44622 -->
+<!-- Generated from private documentation source. Do not edit directly. Source SHA256: e255b32c58d852c85bc16d6819c61b316527ee82508354957af2a4e1e56dbaa0 -->
 
-# gdpw
+# gd-playwright-cli
 
 Open-source Rust companion to [gd-playwright](https://github.com/aviorstudio/gd-playwright).
 
@@ -12,21 +12,21 @@ Linux and macOS, x86_64 or arm64:
 curl -fsSL https://raw.githubusercontent.com/aviorstudio/gd-playwright-cli/main/scripts/install.sh | sh
 ```
 
-The installer selects this repository's published `cli-v` releases, verifies archive checksums and installs `gdpw` into `~/.local/bin`. Use `sh -s -- --version X.Y.Z --install-dir /absolute/path` to select a release or destination. Windows x86_64 and arm64 ZIPs are available from GitHub Releases. Rust is only required to build from source.
+The installer selects this repository's published `cli-v` releases, verifies archive checksums and installs `gd-playwright-cli` into `~/.local/bin`. Use `sh -s -- --version X.Y.Z --install-dir /absolute/path` to select a release or destination. Windows x86_64 and arm64 ZIPs are available from GitHub Releases. Rust is only required to build from source.
 
 ## Usage
 
 ```sh
-gdpw --json status
-gdpw list --visible
-gdpw get start_button
-gdpw wait route_loaded --timeout 10000
-gdpw --json script click start_button
+gd-playwright-cli --json status
+gd-playwright-cli list --visible
+gd-playwright-cli get start_button
+gd-playwright-cli wait route_loaded --timeout 10000
+gd-playwright-cli --json script click start_button
 ```
 
-`gdpw` reads Godot web-game elements, events and state through Chrome DevTools Protocol. It generates Playwright action scripts for another tool to execute. Install the gd-playwright addon separately and open a diagnostic web export in a browser exposing CDP.
+`gd-playwright-cli` reads Godot web-game elements, events and state through Chrome DevTools Protocol. It generates Playwright action scripts for another tool to execute. Install the gd-playwright addon separately and open a diagnostic web export in a browser exposing CDP.
 
-Select an owned browser with `--cdp URL`, `--port PORT`, `GDPW_CDP` or `GDPW_PORT`. Finite commands support `--json`; `watch` retains its event stream. WSS uses system trust roots. Use `gdpw --help` for command flags.
+Select an owned browser with `--cdp URL`, `--port PORT`, `GDPW_CDP` or `GDPW_PORT`. Finite commands support `--json`; `watch` retains its event stream. WSS uses system trust roots. Use `gd-playwright-cli --help` for command flags.
 
 ## Development
 

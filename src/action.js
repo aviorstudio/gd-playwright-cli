@@ -25,7 +25,7 @@ async page => {
     const to = options.toKey ? resolve(options.toKey) : options.to || null;
     let token = null;
     if (options.confirm) {
-      token = "gdpw-" + Date.now() + "-" + attempt + "-" + Math.random();
+      token = "gd-playwright-cli-" + Date.now() + "-" + attempt + "-" + Math.random();
       const registry = window[registryName] = window[registryName] || {};
       const record = { event: null, listener: null };
       record.listener = browserEvent => {

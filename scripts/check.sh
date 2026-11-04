@@ -11,7 +11,7 @@ lint)
 build)
   cargo build --locked
   mkdir -p .artifacts/bin
-  cp "${CARGO_TARGET_DIR:-target}/debug/gdpw" .artifacts/bin/gdpw
+  cp "${CARGO_TARGET_DIR:-target}/debug/gd-playwright-cli" .artifacts/bin/gd-playwright-cli
   ;;
 test)
   cargo test --locked
