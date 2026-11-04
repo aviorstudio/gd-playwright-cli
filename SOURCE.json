@@ -1,0 +1,191 @@
+{
+  "repository": "aviorstudio/gd-playwright",
+  "revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+  "license": "MIT",
+  "files": [
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/Cargo.lock",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "Cargo.lock",
+      "sha256": "afa1e30f50e31698b691b32e5b4099f6b43f8d1a16386141258a5342f3d4e494"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/Cargo.toml",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "Cargo.toml",
+      "sha256": "4b1c1ae31352f467ceaac963e4fcdd6160eaf0a5082efaeb1120abf9aedefca5"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/build.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "build.rs",
+      "sha256": "51b87df55296bf758178260108d7501d9631c95ed460089bb96a742070784850"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/action.js",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/action.js",
+      "sha256": "0901438fabb02295c77a9d8e771af5c063d98d9315655ca5410e92e2fd5779d5"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/action.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/action.rs",
+      "sha256": "7386b3aff18c7d9c726bdca972db3bee37bb69755a9f5af9a2a8e884ef761451"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/cdp.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/cdp.rs",
+      "sha256": "8f138a958dd146f760c13d8576390eb4952dd4a1bcc435a6fabe6cd3e30cb79b"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/commands.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/commands.rs",
+      "sha256": "ffa2f759da2cb7e8b8f2b1f67bcaa8dd1ae65f5fda7ad210562fdf8c789d3cd1"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/config.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/config.rs",
+      "sha256": "2bfa1a7e640090c97a9e60aaf017b81c4e6defea5e308ab55aa52241d30afe1f"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/main.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/main.rs",
+      "sha256": "ff64814bc1e3501890937d21971c0963c84d1d669b494131b5544d4ada7c1a1a"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/state.js",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/state.js",
+      "sha256": "bf619dfc2413a56364291349a535f44f11a016e103d72d2637466d2e9d633d81"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/src/status.js",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "src/status.js",
+      "sha256": "3b64ed566119e5c30456c3acb4e23681eee6717f46c4ef89ce211db2036a2f6e"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/tests/contracts.rs",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "tests/contracts.rs",
+      "sha256": "5ca9fd5a1e9ea5a5a1679bb82e660dbd709095ac51958ce2a45a02c70473602b"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "cli/install.sh",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "scripts/install.sh",
+      "sha256": "c707fe6cacf45f8ea060465280ab56abf812788d472987744ad8ea06808cac63"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "LICENSE",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "LICENSE",
+      "sha256": "a03ff68fb0090d2593c6e26cd631a9ba4c248a036dcd439cdc928e51ba2a84ff"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "scripts/native_linkage.py",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "scripts/native_linkage.py",
+      "sha256": "aeb8cbb4796c4c386399f3d0822f2b6fdd1f975ffe981b90e816984390048be5"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "scripts/package-cli.py",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "scripts/package-cli.py",
+      "sha256": "a60f164485f26cd1486f5ed95430b48945f31652842c3e83621eb882d4c01a73"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "tests/installer_test.py",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "tests/installer_test.py",
+      "sha256": "aebd166602e361dba555f10860734ee38333274b09a9529c15b2bfb649cdbc5e"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": "tests/tls_test.py",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "tests/tls_test.py",
+      "sha256": "89afa1123657fe440edd762f41435e916814f63f5429c5f9fabb670b81ce9a7f"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": ".github/scripts/check-documentation.py",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": ".github/scripts/check-documentation.py",
+      "sha256": "52bb27c332a3d9df28f6a86c824875b4696871aea48bb72c4803c33eb14a254c"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": ".github/workflows/documentation-policy.yml",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": ".github/workflows/documentation-policy.yml",
+      "sha256": "7420c93d2c440bc18b9cb59f0894aba7f68066122a5a24f459f5e897303199c0"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": ".github/dependency-policy.json",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": ".github/dependency-policy.json",
+      "sha256": "3f39db89f7642567f927672fbed80cece06d89d32d3ed270d789b044e206d2fe"
+    },
+    {
+      "source_repository": "aviorstudio/gd-playwright",
+      "source_revision": "d48eb8b5edb8621782ad09d9cccced7eb79f38a8",
+      "source_path": ".github/workflows/dependency-policy.yml",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": ".github/workflows/dependency-policy.yml",
+      "sha256": "6f5052d9db40bdece7e0a89483591664eb89cc95672f687ceea58e12d0f63f05"
+    },
+    {
+      "source_repository": "aviorstudio/gd-observe",
+      "source_revision": "a854f6fc777d1600867705c40bd183c9aec393c6",
+      "source_path": "tests/release_guard_test.py",
+      "destination_repository": "aviorstudio/gd-playwright-cli",
+      "destination_path": "tests/release_guard_test.py",
+      "sha256": "5c2eb5e55492f578e383517f83df75d609bc865bdf5ee09aa3207a7af30455d9"
+    }
+  ]
+}
