@@ -1,4 +1,4 @@
-<!-- Generated from private documentation source. Do not edit directly. Source SHA256: e255b32c58d852c85bc16d6819c61b316527ee82508354957af2a4e1e56dbaa0 -->
+<!-- Generated from private documentation source. Do not edit directly. Source SHA256: 64a4b0ade0424f81e55e3ce80b4595b3f28dd1fa06572498a099345c96757b74 -->
 
 # gd-playwright-cli
 
@@ -30,7 +30,20 @@ Select an owned browser with `--cdp URL`, `--port PORT`, `GDPW_CDP` or `GDPW_POR
 
 ## Development
 
-`mise.toml` pins contributor tools. Run `mise run check` for formatting, static checks, native behavioral tests, TLS trust tests, installer checks and the executable build. `cargo build --release --locked` builds a standalone release executable. `mise run clean` removes declared generated outputs.
+`mise.toml` pins contributor SDKs. The generated root Makefile selects an immutable revision of the shared cookbook and binds it to `cookbook.toml`.
+
+```sh
+make help
+make setup
+make build
+make test
+```
+
+`make help` works offline before setup. `make setup` explicitly prepares the pinned SDKs, locked dependencies and declared fixtures. `make build` compiles the executable, packages the native archive and verifies its source and output identity. `make test` runs lint, deterministic native unit tests, security checks and the declared integration journeys against those verified artifacts. Run build again after changing source; tests do not install tools or build missing shipping artifacts.
+
+Use `make fmt` to apply formatting, `make test:lint`, `make test:unit`, `make test:security` or `make test:integration` to select a group, and `make clean` to remove the declared generated outputs. Build and test evidence is recorded in `.artifacts/verification`.
+
+CI retains Linux, macOS and Windows builds for x86_64 and arm64. The integration group preserves installer and TLS trust checks. Published installers continue to use checksummed release archives.
 
 ## License and provenance
 
