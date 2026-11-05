@@ -1,9 +1,10 @@
 # Generated cookbook entrypoint. Change cookbook.toml and regenerate.
-# Recipe data SHA256: ec2118e7e11bbce9584a4a1062a01d4581ed45cb135ce5f022e82de432272166
-COOKBOOK_REF := 99d2eb20bf2c5aea1abc03392c335d9a7342e1e7
+# Recipe data SHA256: de18c49a50341ff6acaf397e6437de824bf75484461721c5990ec887c35690d3
+COOKBOOK_REF := c84baad64d47aeddb1fe0613907da4718f0cd340
 COOKBOOK_RECIPE := rust-cli
 COOKBOOK_ROOT ?= .artifacts/cookbook/$(COOKBOOK_REF)
 COOKBOOK_TEST_SUITES := lint unit security integration
+COOKBOOK_CAPABILITIES :=
 COOKBOOK_EMPTY :=
 COOKBOOK_SPACE := $(COOKBOOK_EMPTY) $(COOKBOOK_EMPTY)
 cookbook_path = $(subst $(COOKBOOK_SPACE),\$(COOKBOOK_SPACE),$(1))
