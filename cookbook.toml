@@ -92,3 +92,6 @@ version_identity = "number"
 validation_timeout = 30
 acceptance_timeout = 5
 initial_version = "0.0.7"
+
+[ci]
+single_job = true
